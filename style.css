@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.informacao{
+    text-align: center;
+    top: 20px;
+    background-color: rgba(11, 11, 59, 0.87);
+
+
+}
+
+
+.informacao h4{
+    color: azure;
+    font-size: 14px;
+    padding: 60px;
+    position: relative;
+    top: 30px;
+}
+ 
+.propaganda{
+height: auto;
+width: auto;
+background-color: #fe0064;
+display: flex;
+}
+
+.propa{
+background-color: aliceblue;
+width: 270px;
+padding: 20px;
+margin: 10px;
+border-radius: 10px;
+position: relative;
+left: 70px;
+
+}
+
+
+.propa img {
+position: relative;
+left: 95px;
+height: 40px;
+width: 40px;
+
+
+}
+
+.propa h3 {
+text-align: center;
+font-size: 15px;
+  
+    
+    }
+
+.propa p {
+   text-align: center;   
+   font-size: 14px; 
+        
+    }
+
+.propa strong {
+ font-size: bold;       
+        
+        
+        }
+
+.texto{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 15px;
+    width: auto;
+}
+.texto h1 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 42px;
+    color: rgba(10, 10, 54, 0.89);
+
+}
+
+.texto p {
+    text-align: justify;
+    text-align: center;
+}
+
+.video{
+margin: auto;
+width: auto;
+
+padding: 10px;
+}
+
+.video1{ 
+width: 100%;
+height: 500px;
+}
+
+.titulo{
+text-align: center;
+
+}
+
+.titulo h1{
+    color: rgba(17, 17, 66, 0.767);
+    font-weight: bold
+    }
+
+.sim{
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 15px;
+
+
+}
+
+.sim2{
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    right: 40px;
+    border-radius: 10px;
+
+}
+
+.sim2 img{
+    
+        width: 50px;
+        margin: auto;
+        display: block;
+      
+
+}
+
+.sim2 h4{
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+
+}
+
+.sim2 p{
+   text-align: center; 
+ font-size: 17px;
+}
+
+.blog{
+width: 100%;
+height: 400px;
+background-color: #fe0064;
+display: flex;
+margin: 10px;
+padding: 10px;
+}
+
+.blog1{ 
+margin: 15px;
+background-color: aliceblue;
+border-radius: 20px;
+height: 330px;
+ }
+
+ .blog1 img{ 
+   height: 170px;
+   width: 350px;
+     }
+
+ .blog1 h3 {
+    text-align: center;
+    margin-top: 25px;
+     }
+
+    .blog-button{
+      border-radius: 15px; 
+      margin: 5px;
+      width: 100px;
+      height: 50px; 
+     background-color: #fe0064;
+    }
+
+    .blog-button a {
+        text-decoration: none;
+        font-weight: bold;
+        font-weight: 800;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        color: aliceblue;
+    }
+
+    
+
+
+
+@media screen and (max-width: 768px) {
+    .propaganda{
+        flex-wrap: wrap;
+        position: static;
+        width: 100%;
+        }
+
+        .propa{
+            position: static;
+        width: 100%;
+        height: auto;
+            }
+
+        .propa img{
+            width: 40px;
+            margin: auto;
+            margin-right: 260px;
+            display: block;
+        }
+
+    .sim{
+            flex-wrap: wrap;
+            height: auto;
+            width: auto;
+             }
+
+    .sim2{
+        position: static;
+        width: auto;
+        height: auto;
+                }
+
+    .blog{
+                flex-wrap: wrap;
+                height: auto;
+                width: auto;
+            }
+
+            .blog1{
+                height: auto;
+                width: auto;
+                margin: 10px;
+            }
+
+    .video{
+        width: auto;
+        height: auto;
+        position: static;
+    }
+    .video1{
+        width: auto;
+        height: auto;
+        position: relative;
+        margin: 30px;
+    
+    }
+
+
+        .titulo{
+            width: auto;
+            height: auto;
+            position: static;
+            font-size: 18px;
+            text-align: justify;
+           padding: 10px;
+        }
+
+       }
