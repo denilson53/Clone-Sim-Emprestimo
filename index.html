@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
   <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" href="css/menu-animado.css">
   <link rel="stylesheet" href="css/style-slide.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/style-menu.css">
   <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
@@ -17,10 +19,56 @@
    
 </head>
 <body>
+
+   
+
     <!--menu -->
+ 
+
 
     <header class="main_header container">
-    
+   
+        <!-- menu-animado -->
+        <div class="menu-animado">
+                    
+            <div class="flutua">
+                <i class="fa fa-share-alt"></i>
+            </div>
+        
+            <div class="redondo social box">
+              <a href="https://www.facebook.com/EmprestimoSim" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/emprestimosim/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="##" class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        
+        </div><!-- menu-animado -->
+
+
+
+    </div><!--Box Artigo-->
+
+
+<div class="clear"></div>
+</div>
+</section><!--FECHA BOX HTML-->
+
+</div><!-- menu-animado -->
+
+<div class="box-artigo">    
+
+<div class="menu-animado">
+    <div class="flutua">
+        <i class="fa fa-share-alt"></i>
+    </div>
+
+    <div class="redondo social box">
+      <a href="https://www.facebook.com/EmprestimoSim" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/emprestimosim/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.instagram.com/emprestimosim/" class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+
+
+  </div><!-- menu-animado final-->
+
 
         <div class="menu-fixo">
             <a href="#" class="btn-mobile"><span class="icon-bars"></span><img src="img/logo.png" alt=""></a>
@@ -305,6 +353,18 @@
       });
  
  </script>
+
+<script>
+
+    $(".menu-animado .flutua").click(function(){
+
+        $('.flutua').toggleClass('btn-ativo');
+    
+    $(".menu-animado .social").toggleClass("box");
+
+  });
+
+</script>
 
     
 
